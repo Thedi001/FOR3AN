@@ -1,11 +1,11 @@
 package com.example.for3an;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 public class MainActivity extends AppCompatActivity {
     CardView studyTimeCard;
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        todolistCard = findViewById(R.id.todolistcard);
+       todolistCard = findViewById(R.id.todolistcard);
         todolistCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

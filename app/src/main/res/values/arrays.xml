@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_titles">
+        <item>Audio 1</item>
+        <item>Audio 2</item>
+
+        <!-- Add more items as needed for your audio files -->
+    </string-array>
+
+</resources>

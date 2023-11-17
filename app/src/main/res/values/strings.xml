@@ -2,4 +2,9 @@
     <string name="app_name">FOR3A</string>
     <string name="ready_to_be_smart">Ready to be Smart</string>
     <string name="chat">Chat</string>
+    <string name="select_file">Select your file from storage. You can only select PDF file</string>
+    <string name="twice_select">Click twice to select the file</string>
+    <string name="upload_file">Upload file</string>
+    <string name="retrieve_file">Retrieve PDf Files</string>
+    <string name="no_pdf_file_selected_yet">No pdf files yet</string>
 </resources>
