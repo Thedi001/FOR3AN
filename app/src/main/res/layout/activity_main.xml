@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/constraintLayout"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="20dp"
+        android:background="#35aab7">
 
         <TextView
             android:id="@+id/for3aName"
@@ -23,7 +24,7 @@
             android:fontFamily="@font/poppins_semibold"
             android:paddingBottom="@dimen/cardview_default_radius"
             android:text="FoR3A"
-            android:textColor="@color/lavender"
+            android:textColor="#e0af1f"
             android:textSize="40sp"
             app:layout_constraintBottom_toTopOf="@+id/description"
             app:layout_constraintEnd_toStartOf="@+id/hello"

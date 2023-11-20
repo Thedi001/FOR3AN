@@ -18,6 +18,24 @@
         android:theme="@style/Theme.FOR3AN"
         tools:targetApi="31">
         <activity
+            android:name=".IT"
+            android:exported="false" />
+        <activity
+            android:name=".pure"
+            android:exported="false" />
+        <activity
+            android:name=".bio"
+            android:exported="false" />
+        <activity
+            android:name=".applied"
+            android:exported="false" />
+        <activity
+            android:name=".chemistry"
+            android:exported="false" />
+        <activity
+            android:name=".physics"
+            android:exported="false" />
+        <activity
             android:name=".each_pdf_item"
             android:exported="false" />
         <activity
