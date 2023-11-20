@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".physics">
+
+    <EditText
+        android:id="@+id/editTextMarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Marks"/>
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date"/>
+
+    <Button
+        android:id="@+id/btnAddP6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Entry"/>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/btnAddP6"/>
+</RelativeLayout>
+
